@@ -1,0 +1,39 @@
+body{
+    font-family: 'Times New Roman', 'Arial', 'Calibri', 'Consolas', Droid Sans, Impact;
+}
+
+.main-container {
+    
+    /* Draw a solid border make it copper */
+    border-style: solid;
+    border-width: 12;
+    border-color: copper;
+    /*Add space between the border and its inside elements. */
+    padding: 12px;
+    /* Color the background dark blue. */
+    background : lightblue;
+    width: 70%;
+    margin: auto;
+}
+
+div.align{
+    text-align: center;
+}
+
+.secondary-container{
+    
+    margin: auto;
+    width:55%;
+    padding: 60px;
+    border-bottom: 2px black solid;
+    border-spacing: inherit;
+}
+
+#mainheader{
+    position: relative;
+    left: 30px;
+    top:10px;
+    color: lightgray;
+    opacity: .70;
+    font-size: 65px;
+}
