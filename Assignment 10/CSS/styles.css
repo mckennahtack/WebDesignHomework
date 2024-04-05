@@ -1,17 +1,17 @@
 body{
-    font-family: 'Times New Roman', 'Arial', 'Calibri', 'Consolas', Droid Sans, Impact;
+    font-family: 'Times New Roman', 'Arial', 'Calibri', 'Consolas', Droid Sans, Corsiva;
 }
 
 .main-container {
     
-    /* Draw a solid border make it copper */
+      /* Draw a solid border make it light blue */
     border-style: solid;
     border-width: 12;
     border-color: copper;
     /*Add space between the border and its inside elements. */
     padding: 12px;
     /* Color the background dark blue. */
-    background : lightblue;
+    background : copper;
     width: 70%;
     margin: auto;
 }
