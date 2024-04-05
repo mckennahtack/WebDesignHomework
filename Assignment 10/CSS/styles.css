@@ -7,17 +7,17 @@ body{
       /* Draw a solid border make it light blue */
     border-style: solid;
     border-width: 12;
-    border-color: copper;
+    border-color:copper;
     /*Add space between the border and its inside elements. */
     padding: 12px;
     /* Color the background dark blue. */
-    background : copper;
+    background :copper;
     width: 70%;
     margin: auto;
 }
 
 div.align{
-    text-align: center;
+    text-align:center;
 }
 
 .secondary-container{
