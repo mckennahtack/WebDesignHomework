@@ -1,0 +1,100 @@
+body{
+  font-family: 'sans-serif';
+  font-family: normal;
+}
+
+header{
+  position: fixed;
+  background-color: cornsilk;
+  font-family: 'monospace';
+  font-style: Large;
+  color: coral;
+  font-variant: small-caps;
+  text-align: center;
+  margin: 0;
+  height: 3.0em;
+  width: 100%;
+}
+
+.menu-item{
+  display: block;
+  margin: 0 0;
+  min-width: 8em;
+  text-align: center;
+  background-color: #ccc;
+  padding: 0.5em 0;
+}
+
+/* Style the links: */
+.menu-item a {
+  color: #BDB76B
+  text-decoration: none;
+}
+.menu-item a {
+  background-color: #FFFACD
+}
+
+/* Add a dropdown feature: */
+.dropdown {
+  display: inline;
+  margin: 0 0;
+  min-widtch: 8em;
+  text-align: Left;
+  background-color: black;
+  padding: 0.5em 0;
+}
+.dropdown a {
+  color: white;
+  text-decoration: none;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  border: 1px solid #000;
+  margin: 0;
+  margin-top: 0.5em;
+  color: #000;
+}
+z-index: 1;
+}
+.dropdown-content a {
+  color: #000;
+}
+.dropdown: hover .dropdown-content {
+  display: block;
+}
+
+/* Style dropdown item display: */
+.dropdown-item {
+  display: block;
+  text-align: left;
+  margin: 0;
+  padding: 0.5em;
+  min-width: 7em;
+}
+.dropdown-item:hover, .dropdown-item:hover a {
+  color: #F08080
+  background-color:  #ADD8E6
+}
+
+.mainimage {
+  flex: wrap;
+}
+
+.directionImage {
+  float: left;
+  width: 400px;
+  height: 200px;
+  margin: 0 0 0 80px;
+}
+
+.direction [
+height: 200px;
+width: 65%;
+background-color:#F0FFFF
+border-radius: 3em;
+margin: 4em;
+padding: 05em;
+overflow: scroll;
+}
+  
