@@ -1,0 +1,17 @@
+@font-face {
+  font-family: 'Arial';
+src: url(../fonts/Arial-black.otf) format(opentype);
+  font-style: black;
+}
+
+@font-face{
+  font-family: 'serif';
+  src: url(../fonts/serif_bold.otf) format(opentype);
+  font-weight: bold;
+}
+
+@font-face{
+  font-family: 'monospace';
+  src: url(../fonts/monospace_italic.otf) format(opentype);
+  font-weight: italic;
+}
