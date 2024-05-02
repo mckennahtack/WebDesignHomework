@@ -2,13 +2,13 @@ var c = document.getElementById("myCanvas");
 var ctx = c.getContext("2d");
 var cty = c.getContext("2d");
 
-// red triangle
+// gold square
 ctx.beginPath();
 ctx.moveTo(200, 360);
 ctx.lineTo(300, 500);
 ctx.lineTo(100, 500);
 ctx.closePath();
-ctx.fillStyle = 'red';
+ctx.fillStyle = 'gold';
 ctx.fill();
 ctx.stroke();
 
@@ -47,10 +47,10 @@ ctx.lineTo(200,350);
 ctx.fill();
 
 //fill text
-ctx.font = '40pt Roboto';
-ctx.strokeText('Picture This', 100, 550);
+ctx.font = '30pt Serif';
+ctx.strokeText('Can't Hurt Me', 100, 550);
 
 //Author
-ctx.font = '20pt Roboto';
-ctx.fillStyle = 'red';
-ctx.fillText('by Molly Bang', 200, 580);
+ctx.font = '18pt Serif';
+ctx.fillStyle = 'blue';
+ctx.fillText('by David Goggins ', 200, 580);
